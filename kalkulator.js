@@ -17,7 +17,10 @@ function hitung() {
         break;
       case "/":
         hasil = parseInt(angka1) / parseInt(angka2);
-        break;  
+        break;
+      case "%":
+        hasil = parseInt(angka1) % parseInt(angka2);
+        break;    
     }
   
     document.getElementById("hasil").innerHTML = hasil;
